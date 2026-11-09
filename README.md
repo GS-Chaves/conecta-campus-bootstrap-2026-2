@@ -20,7 +20,7 @@ Depois abra [http://localhost:8000](http://localhost:8000). Para encerrar o serv
 
 ## Usar no GitHub Codespaces
 
-O enunciado exige o GitHub Codespaces como ambiente de desenvolvimento. A configuração está incluída em `.devcontainer/devcontainer.json`; ter esse arquivo não significa que o projeto já foi executado ou testado no Codespaces.
+O enunciado exige o GitHub Codespaces como ambiente de desenvolvimento. A configuração está incluída em `.devcontainer/devcontainer.json`, e a execução no Codespaces foi confirmada conforme o registro abaixo.
 
 1. Abra [GS-Chaves/conecta-campus-bootstrap-2026-2](https://github.com/GS-Chaves/conecta-campus-bootstrap-2026-2).
 2. Clique em **Code > Codespaces > Create codespace on main** ou use [Abrir no Codespaces](https://codespaces.new/GS-Chaves/conecta-campus-bootstrap-2026-2).
@@ -101,15 +101,15 @@ Em **08/11/2026**, no fuso **America/Bahia**, a interface foi verificada no nave
 - Envio vazio bloqueado, inscrição válida concluída e preservada após recarregar, inscrição duplicada bloqueada. As opções de manter ou confirmar o cancelamento funcionaram, e a remoção permaneceu após recarregar.
 - Nenhum erro ou aviso registrado no console do navegador integrado durante essa verificação.
 
-Essas verificações não substituem testes nos navegadores solicitados pelo enunciado. **Chrome, Firefox, Safari e Edge ainda não foram validados separadamente. O projeto também não foi executado no GitHub Codespaces**. A configuração está pronta, mas a execução e a validação no ambiente ainda precisam ser concluídas.
+A execução no **GitHub Codespaces foi confirmada**, com servidor **Python 3.12.11 na porta 8000** e carregamento da prévia no **Chrome**. O servidor respondeu HTTP 200 com o conteúdo HTML esperado. Isso confirma a abertura da página no ambiente remoto; a bateria completa de componentes e compatibilidade em **Chrome, Firefox, Safari e Edge ainda está pendente**.
 
 ## Checklist de verificação
 
-Use o registro abaixo para a validação final no Codespaces e nos navegadores exigidos. Os itens permanecem pendentes nessa etapa; não equivalem aos testes limitados ao navegador integrado descritos acima.
+Use o registro abaixo para concluir a validação nos navegadores exigidos. A execução no Codespaces está confirmada; os demais itens registram a bateria complementar, além dos testes no navegador integrado descritos acima.
 
 | Teste                                                                  | Resultado / observação |
 | ---------------------------------------------------------------------- | ---------------------- |
-| Executar e editar o projeto no GitHub Codespaces                       | A preencher            |
+| Executar o projeto no GitHub Codespaces | Confirmado: Python 3.12.11, porta 8000 e prévia aberta no Chrome |
 | Abrir/fechar o menu em celular e navegar pelos links                   | A preencher            |
 | Percorrer os três slides pelos controles e indicadores                 | A preencher            |
 | Aplicar cada filtro de categoria nos cards                             | A preencher            |
@@ -124,7 +124,7 @@ Use o registro abaixo para a validação final no Codespaces e nos navegadores e
 | Cancelar uma inscrição e conferir a atualização da lista               | A preencher            |
 | Navegar com teclado e verificar foco visível                           | A preencher            |
 | Verificar celular, tablet e desktop sem cortes de conteúdo             | A preencher            |
-| Testar no Chrome                                                       | A preencher            |
+| Testar todos os componentes no Chrome | Pendente; carregamento da prévia confirmado |
 | Testar no Firefox                                                      | A preencher            |
 | Testar no Safari                                                       | A preencher            |
 | Testar no Edge                                                         | A preencher            |
